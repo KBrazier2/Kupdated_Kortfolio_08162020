@@ -21,6 +21,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    border-width: 2px;
+    border-color: black;
 }
 
 .card-body {
@@ -29,6 +31,13 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    border-width: 2px;
+    border-color: black;
+}
+
+.card {
+    border-width: 2px;
+    border-color: black;
 }
 
 .cardImg2 {
@@ -79,4 +88,39 @@ body {
 .cardImg14 {
     width: 100%;
     height: auto;
+}
+
+.modal {
+    border-width: 2px;
+    border-color: black;
+}
+
+.modal-header {
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-width: 2px;
+    border-color: black;
+}
+
+.modal-body {
+    background-image: linear-gradient(to right, #671ea0 0%, #f6f3ff 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-width: 2px;
+    border-color: black;
+}
+
+.modal-footer {
+    background-image: linear-gradient(to right, #671ea0 0%, #f6f3ff 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-width: 2px;
+    border-color: black;
 }
