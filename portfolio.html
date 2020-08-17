@@ -8,6 +8,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Portfolio</title>
 </head>
@@ -25,15 +27,15 @@
                 <a class="nav-link" href="aboutme.html">About Me</a>
                 <a class="nav-link active" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
                 <a class="nav-link" href="contacts.html">Contacts</a>
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"></a>
             </div>
         </div>
     </nav>
     <!-- Jumbotron -->
     <div class="container">
         <div class="jumbotron text-center">
-            <h1>GLHF!</h1>
-            <div class="time-frame">
+            <h1 class="animate__animated animate__fadeInDown">GLHF!</h1>
+            <div class="time-frame animate__animated animate__fadeInDown">
                 <div id="date-part"></div>
                 <div id="time-part"></div>
             </div>
@@ -42,22 +44,22 @@
         <div class="row">
             <div class="col-sm-2">
             </div>
-            <div class="col-sm-8">
+            <div class="col-sm-8 animate__animated animate__fadeIn animate__delay-1s">
                 <div id="mainDiv6" class="card">
-                    <div id="mainHeader6" class="card-header">
-                        <h3>Portfolio:</h3>
+                    <div id="mainHeader6" class="card-header text-center">
+                        <h3>Portfolio</h3>
                     </div>
-                    <div id="mainBody6" class="card-body">
+                    <div id="mainBody6" class="card-body text-center">
                         Below are several pieces of work that I have done. Clicking the meme will bring up screenshots and animations regarding each piece of work's functionality. Please enjoy yourselves by checking out each link. I hope you have fun!
                     </div>
                 </div>
             </div>
             <div class="col-sm-2">
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 animate__animated animate__fadeInBottomLeft animate__delay-2s">
                 <div id="mainDiv7" class="card">
-                    <div id="mainHeader7" class="card-header">
-                        <h3>Krazy Kalendar:</h3>
+                    <div id="mainHeader7" class="card-header text-center">
+                        <h3>Krazy Kalendar</h3>
                     </div>
                     <div id="mainBody7" class="card-body text-center">
                         Workday scheduler allows the user to add and save both tasks and events for each hour of the day.
@@ -73,10 +75,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 animate__animated animate__fadeInUp animate__delay-3s">
                 <div id="mainDiv8" class="card">
-                    <div id="mainHeader8" class="card-header">
-                        <h3>Kweather Kashboard:</h3>
+                    <div id="mainHeader8" class="card-header text-center">
+                        <h3>Kweather Kashboard</h3>
                     </div>
                     <div id="mainBody8" class="card-body text-center">
                         Weather dashboard allows the user to search for a city, and be presented with that city's realtime weather information.
@@ -92,10 +94,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 animate__animated animate__fadeInBottomRight animate__delay-4s">
                 <div id="mainDiv9" class="card">
-                    <div id="mainHeader9" class="card-header">
-                        <h3>Keal Krink:</h3>
+                    <div id="mainHeader9" class="card-header text-center">
+                        <h3>Keal Krink</h3>
                     </div>
                     <div id="mainBody9" class="card-body text-center">
                         This meal and drink application called "What Are We Making Today?" is an app that generates 4 randomized meals/drinks based on ingredients selected.
