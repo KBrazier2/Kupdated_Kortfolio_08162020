@@ -5,3 +5,18 @@ $(document).ready(function() {
         $("#time-part").html(momentNow.format("hh:mm:ssa"));
     }, 100);
 });
+
+// $(document).ready(function (){
+//     var openModal;
+//     $("modal-btn-7").on("click", function (){
+//         event.preventDefault();
+//         openModal = $()
+//     })
+// })
+
+$(function() {
+    $("#modal-btn7").on("click", function() {
+        var src = $(this).attr("src");
+        $('#workModal7').prop("src", src);
+    });
+})
