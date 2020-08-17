@@ -1,0 +1,82 @@
+body {
+    background-image: linear-gradient(to top, #8a2257 0%, #012863 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.jumbotron {
+    color: whitesmoke;
+    background-image: url("neonstreet.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.card-header {
+    background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.card-body {
+    background-image: linear-gradient(to right, #671ea0 0%, #f6f3ff 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.cardImg2 {
+    width: 100%;
+    height: auto;
+}
+
+.cardImg3 {
+    width: 100%;
+    height: auto;
+}
+
+.cardImg4 {
+    width: 100%;
+    height: auto;
+}
+
+.cardImg7 {
+    width: 100%;
+    height: auto;
+}
+
+.cardImg8 {
+    width: 100%;
+    height: auto;
+}
+
+.cardImg9 {
+    width: 100%;
+    height: auto;
+}
+
+.cardImg11 {
+    width: 100%;
+    height: auto;
+}
+
+.cardImg12 {
+    width: 100%;
+    height: auto;
+}
+
+.cardImg13 {
+    width: 100%;
+    height: auto;
+}
+
+.cardImg14 {
+    width: 100%;
+    height: auto;
+}

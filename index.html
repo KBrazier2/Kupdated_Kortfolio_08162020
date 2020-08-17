@@ -4,11 +4,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Kyle Brazier</title>
 </head>
 
 <body>
-
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Kyle Brazier</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="aboutme.html">About Me</a>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-link" href="contacts.html">Contacts</a>
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="jumbotron text-center">
+            <h1 class="display-3">Welcome Friend!</h1>
+            <div class="time-frame">
+                <div id="date-part"></div>
+                <div id="time-part"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-8">
+                <div id="mainDiv1" class="card">
+                    <div id="mainHeader1" class="card-header">
+                        <h3>Introduction:</h3>
+                    </div>
+                    <div id="mainBody1" class="card-body">
+                        Thanks for venturing into the world of Kyle Brazier. There are several different pages you may check out in this environment. Each place has it's own significant value and I hope you take the time to see it all. You may find navigation above us in the
+                        navbar, or you may check out the cards below with a provided description.
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+            </div>
+            <div class="col-sm-4">
+                <div id="mainDiv2" class="card">
+                    <div id="mainHeader2" class="card-header">
+                        <h3>About Me:</h3>
+                    </div>
+                    <div id="mainBody2" class="card-body text-center">
+                        Enter the mind of Kyle, and find out what makes him run.
+                        <p></p>
+                        <img src="brain.jpg" class="cardImg2 text-center" alt="brain">
+                        <p></p>
+                        <a href="aboutme.html" class="btn btn-primary text-center">
+                        Enter here!
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div id="mainDiv3" class="card">
+                    <div id="mainHeader3" class="card-header">
+                        <h3>Portfolio:</h3>
+                    </div>
+                    <div id="mainBody3" class="card-body text-center">
+                        Interested on what he's done? Come see for yourself!
+                        <p></p>
+                        <img src="atlas.jpg" class="cardImg3 text-center" alt="atlas">
+                        <p></p>
+                        <a href="portfolio.html" class="btn btn-primary text-center">
+                        Come play here!
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div id="mainDiv4" class="card">
+                    <div id="mainHeader4" class="card-header">
+                        <h3>Contact:</h3>
+                    </div>
+                    <div id="mainBody4" class="card-body text-center">
+                        We all want to talk to him. Don't worry! Here's how!
+                        <p></p>
+                        <img src="whisper.jpg" class="cardImg4 text-center" alt="whisper">
+                        <p></p>
+                        <a href="contacts.html" class="btn btn-primary text-center">
+                        Whisper to him!
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+<footer>
+    <div class="foot-card text-center">
+        <div class="foot-card-header">
+
+        </div>
+        <div class="foot-card-body">
+
+        </div>
+        <div class="foot-card-footer text-muted">
+            © Copyright Kyle Brazier 2020
+        </div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="script.js"></script>
 
 </html>
