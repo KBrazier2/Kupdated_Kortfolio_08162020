@@ -23,8 +23,8 @@ Frameworks:
 
 Below are screenshots/animations showing the site's functionality:
 
-![screenshot1](2020-08-18.png)
-![screenshot2](2020-08-18_(1).png)
-![screenshot3](2020-08-18_(2).png)
-![screenshot4](2020-08-18_(3).png)
-![gifshot1](Untitled_Aug_18_2020_10_31_AM.gif)
+![screenshot1](./assets/2020-08-18.png)
+![screenshot2](./assets/2020-08-18_(1).png)
+![screenshot3](./assets/2020-08-18_(2).png)
+![screenshot4](./assets/2020-08-18_(3).png)
+![gifshot1](./assets/Untitled_Aug_18_2020_10_31_AM.gif)
