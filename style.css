@@ -75,6 +75,7 @@ body {
 .cardImg7 {
     width: 100%;
     height: auto;
+    min-height: 60%;
 }
 
 .cardImg8 {
